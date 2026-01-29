@@ -1,16 +1,34 @@
-# expnesetracker
+# 💸 Expense Tracking App
 
-A new Flutter project.
+A modern, high-performance personal finance management application built with **Flutter** and **Firebase**. This app allows users to track their daily expenses and income with real-time data visualization.
 
-## Getting Started
+## ✨ Features
 
-This project is a starting point for a Flutter application.
+- **User Authentication:** Secure Sign-up and Login using Firebase Email/Password Auth.
+- **Real-time Dashboard:** View total expenses and income synced with Cloud Firestore.
+- **Data Visualization:** Interactive Donut Charts (via `fl_chart`) showing expense breakdowns by category (Shopping, Grocery, Others).
+- **Local Storage:** Remembers user sessions and preferences using `shared_preferences`.
+- **Responsive UI:** Clean, modern design with a landing onboarding experience.
+- **Category Tracking:** Add expenses to specific categories to manage budgets effectively.
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Frontend:** [Flutter](https://flutter.dev/) (Dart)
+- **Backend:** [Firebase Authentication](https://firebase.google.com/products/auth), [Cloud Firestore](https://firebase.google.com/products/firestore)
+- **Charts:** [fl_chart](https://pub.dev/packages/fl_chart)
+- **State Management:** Stateful Widgets & Service-based architecture
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📸 Screenshots
+
+| Onboarding | Login | Dashboard |
+|------------|-------|-----------|
+| ![Onboarding](assets/images/onboardpage.png) | ![Login](assets/images/loginpage.png) | ![Dashboard](assets/images/dashboard.png) |
+
+---
+
+## 🛠️ Installation & Setup
+
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Kenean579/Expense-Tracker-Flutter.git
