@@ -27,8 +27,3 @@ A modern, high-performance personal finance management application built with **
 ---
 
 ## 🛠️ Installation & Setup
-
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/Kenean579/Expense-Tracker-Flutter.git
